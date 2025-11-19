@@ -59,8 +59,10 @@ var annotated_dup =
         [ "PoolPair", "structPurrNet_1_1Modules_1_1PoolPair.html", null ],
         [ "PrefabPieceID", "structPurrNet_1_1Modules_1_1PrefabPieceID.html", null ],
         [ "PurrSceneSettings", "structPurrNet_1_1Modules_1_1PurrSceneSettings.html", null ],
+        [ "ReliableConnectionHistory", "classPurrNet_1_1Modules_1_1ReliableConnectionHistory.html", null ],
         [ "RollbackModule", "classPurrNet_1_1Modules_1_1RollbackModule.html", null ],
         [ "RPCModule", "classPurrNet_1_1Modules_1_1RPCModule.html", null ],
+        [ "RPCPacketPacker", "structPurrNet_1_1Modules_1_1RPCPacketPacker.html", null ],
         [ "RpcRequest", "structPurrNet_1_1Modules_1_1RpcRequest.html", null ],
         [ "RpcRequestResponseModule", "classPurrNet_1_1Modules_1_1RpcRequestResponseModule.html", null ],
         [ "RpcResponse", "structPurrNet_1_1Modules_1_1RpcResponse.html", null ],
@@ -76,6 +78,8 @@ var annotated_dup =
         [ "TickManager", "classPurrNet_1_1Modules_1_1TickManager.html", "classPurrNet_1_1Modules_1_1TickManager" ],
         [ "TransformIdentityPair", "structPurrNet_1_1Modules_1_1TransformIdentityPair.html", null ],
         [ "TransformInfo", "structPurrNet_1_1Modules_1_1TransformInfo.html", null ],
+        [ "UnreliableAck", "structPurrNet_1_1Modules_1_1UnreliableAck.html", null ],
+        [ "UnreliableConnectionHistory", "classPurrNet_1_1Modules_1_1UnreliableConnectionHistory.html", null ],
         [ "UsedByILAttribute", "classPurrNet_1_1Modules_1_1UsedByILAttribute.html", null ]
       ] ],
       [ "Packing", "namespacePurrNet_1_1Packing.html", [
@@ -93,6 +97,7 @@ var annotated_dup =
         [ "HalfVector2", "structPurrNet_1_1Packing_1_1HalfVector2.html", null ],
         [ "HalfVector3", "structPurrNet_1_1Packing_1_1HalfVector3.html", null ],
         [ "HalfVector4", "structPurrNet_1_1Packing_1_1HalfVector4.html", null ],
+        [ "IDuplicate", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", null ],
         [ "IPacked", "interfacePurrNet_1_1Packing_1_1IPacked.html", null ],
         [ "IPackedAuto", "interfacePurrNet_1_1Packing_1_1IPackedAuto.html", null ],
         [ "IPackedSimple", "interfacePurrNet_1_1Packing_1_1IPackedSimple.html", null ],
@@ -137,6 +142,7 @@ var annotated_dup =
         [ "StateNode", "classPurrNet_1_1StateMachine_1_1StateNode.html", "classPurrNet_1_1StateMachine_1_1StateNode" ]
       ] ],
       [ "Transports", "namespacePurrNet_1_1Transports.html", [
+        [ "AutomaticCloudSetups", "classPurrNet_1_1Transports_1_1AutomaticCloudSetups.html", null ],
         [ "ByteData", "structPurrNet_1_1Transports_1_1ByteData.html", null ],
         [ "ClientJoinInfo", "structPurrNet_1_1Transports_1_1ClientJoinInfo.html", null ],
         [ "CompositeTransport", "classPurrNet_1_1Transports_1_1CompositeTransport.html", null ],
@@ -176,6 +182,7 @@ var annotated_dup =
       [ "INetworkManager", "interfacePurrNet_1_1INetworkManager.html", null ],
       [ "INetworkVisibilityRule", "interfacePurrNet_1_1INetworkVisibilityRule.html", "interfacePurrNet_1_1INetworkVisibilityRule" ],
       [ "Interpolated", "classPurrNet_1_1Interpolated.html", null ],
+      [ "InterpolatedWithDispose", "classPurrNet_1_1InterpolatedWithDispose.html", null ],
       [ "IOwnerAuth", "interfacePurrNet_1_1IOwnerAuth.html", null ],
       [ "IPlayerAuthenticator", "interfacePurrNet_1_1IPlayerAuthenticator.html", null ],
       [ "IPlayerBroadcaster", "interfacePurrNet_1_1IPlayerBroadcaster.html", null ],
@@ -257,6 +264,7 @@ var annotated_dup =
       [ "StringUTF8", "structPurrNet_1_1StringUTF8.html", null ],
       [ "SyncArray", "classPurrNet_1_1SyncArray.html", "classPurrNet_1_1SyncArray" ],
       [ "SyncArrayChange", "structPurrNet_1_1SyncArrayChange.html", null ],
+      [ "SyncBigData", "classPurrNet_1_1SyncBigData.html", "classPurrNet_1_1SyncBigData" ],
       [ "SyncDictionary", "classPurrNet_1_1SyncDictionary.html", "classPurrNet_1_1SyncDictionary" ],
       [ "SyncDictionaryChange", "structPurrNet_1_1SyncDictionaryChange.html", null ],
       [ "SyncEvent", "classPurrNet_1_1SyncEvent.html", "classPurrNet_1_1SyncEvent" ],
@@ -268,10 +276,12 @@ var annotated_dup =
       [ "SyncListChange", "structPurrNet_1_1SyncListChange.html", null ],
       [ "SyncQueue", "classPurrNet_1_1SyncQueue.html", "classPurrNet_1_1SyncQueue" ],
       [ "SyncQueueChange", "structPurrNet_1_1SyncQueueChange.html", null ],
+      [ "SyncStatus", "structPurrNet_1_1SyncStatus.html", null ],
       [ "SyncTimer", "classPurrNet_1_1SyncTimer.html", "classPurrNet_1_1SyncTimer" ],
       [ "SyncVar", "classPurrNet_1_1SyncVar.html", "classPurrNet_1_1SyncVar" ],
       [ "TargetRpcAttribute", "classPurrNet_1_1TargetRpcAttribute.html", null ],
       [ "UnityLatestUpdate", "classPurrNet_1_1UnityLatestUpdate.html", null ],
+      [ "ValidatedSyncVar", "classPurrNet_1_1ValidatedSyncVar.html", "classPurrNet_1_1ValidatedSyncVar" ],
       [ "Vector3WithParent", "structPurrNet_1_1Vector3WithParent.html", null ],
       [ "VisibilityRules", "structPurrNet_1_1VisibilityRules.html", null ]
     ] ]

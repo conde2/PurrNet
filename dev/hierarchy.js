@@ -13,6 +13,7 @@ var hierarchy =
     [ "PurrNet.Authentication.AuthenticationBehaviour< string >", "classPurrNet_1_1Authentication_1_1AuthenticationBehaviour.html", [
       [ "PurrNet.Authentication.SimpleAuthenticator", "classPurrNet_1_1Authentication_1_1SimpleAuthenticator.html", null ]
     ] ],
+    [ "PurrNet.Transports.AutomaticCloudSetups", "classPurrNet_1_1Transports_1_1AutomaticCloudSetups.html", null ],
     [ "PurrNet.BoneInfo", "structPurrNet_1_1BoneInfo.html", null ],
     [ "PurrNet.Transports.ClientJoinInfo", "structPurrNet_1_1Transports_1_1ClientJoinInfo.html", null ],
     [ "PurrNet.Modules.DeltaCache", "classPurrNet_1_1Modules_1_1DeltaCache.html", null ],
@@ -20,6 +21,7 @@ var hierarchy =
     [ "PurrNet.Modules.DeltaMessagesList", "structPurrNet_1_1Modules_1_1DeltaMessagesList.html", null ],
     [ "PurrNet.Packing.DeltaWritingScope", "structPurrNet_1_1Packing_1_1DeltaWritingScope.html", null ],
     [ "PurrNet.Pooling.DisposableList< DeltaAcknowledge >", "structPurrNet_1_1Pooling_1_1DisposableList.html", null ],
+    [ "PurrNet.Pooling.DisposableList< int >", "structPurrNet_1_1Pooling_1_1DisposableList.html", null ],
     [ "PurrNet.Pooling.DisposableList< OwnershipInfo >", "structPurrNet_1_1Pooling_1_1DisposableList.html", null ],
     [ "PurrNet.Pooling.DisposableList< PurrNet.Modules.DespawnPacket >", "structPurrNet_1_1Pooling_1_1DisposableList.html", null ],
     [ "PurrNet.Pooling.DisposableList< PurrNet.Modules.GameObjectFrameworkPiece >", "structPurrNet_1_1Pooling_1_1DisposableList.html", null ],
@@ -101,6 +103,25 @@ var hierarchy =
       [ "PurrNet.Profiler.RpcsSample", "structPurrNet_1_1Profiler_1_1RpcsSample.html", null ],
       [ "PurrNet.Profiler.TickSample", "classPurrNet_1_1Profiler_1_1TickSample.html", null ]
     ] ],
+    [ "PurrNet.Packing.IDuplicate< out T >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", null ],
+    [ "PurrNet.Packing.IDuplicate< BitPacker >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", [
+      [ "PurrNet.Packing.BitPacker", "classPurrNet_1_1Packing_1_1BitPacker.html", null ]
+    ] ],
+    [ "PurrNet.Packing.IDuplicate< ByteData >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", [
+      [ "PurrNet.Transports.ByteData", "structPurrNet_1_1Transports_1_1ByteData.html", null ]
+    ] ],
+    [ "PurrNet.Packing.IDuplicate< DisposableArray< T > >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", [
+      [ "PurrNet.Pooling.DisposableArray< T >", "structPurrNet_1_1Pooling_1_1DisposableArray.html", null ]
+    ] ],
+    [ "PurrNet.Packing.IDuplicate< DisposableDictionary< TKey, TValue > >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", [
+      [ "PurrNet.Pooling.DisposableDictionary< TKey, TValue >", "structPurrNet_1_1Pooling_1_1DisposableDictionary.html", null ]
+    ] ],
+    [ "PurrNet.Packing.IDuplicate< DisposableHashSet< T > >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", [
+      [ "PurrNet.Pooling.DisposableHashSet< T >", "structPurrNet_1_1Pooling_1_1DisposableHashSet.html", null ]
+    ] ],
+    [ "PurrNet.Packing.IDuplicate< DisposableList< T > >", "interfacePurrNet_1_1Packing_1_1IDuplicate.html", [
+      [ "PurrNet.Pooling.DisposableList< T >", "structPurrNet_1_1Pooling_1_1DisposableList.html", null ]
+    ] ],
     [ "IEquatable", null, [
       [ "PurrNet.HalfQuaternion", "structPurrNet_1_1HalfQuaternion.html", null ],
       [ "PurrNet.Modules.DeltaValue", "structPurrNet_1_1Modules_1_1DeltaValue.html", null ],
@@ -180,6 +201,7 @@ var hierarchy =
     [ "PurrNet.Interpolated< PurrNet.Vector3WithParent >", "classPurrNet_1_1Interpolated.html", null ],
     [ "PurrNet.Interpolated< Quaternion >", "classPurrNet_1_1Interpolated.html", null ],
     [ "PurrNet.Interpolated< Vector3 >", "classPurrNet_1_1Interpolated.html", null ],
+    [ "PurrNet.InterpolatedWithDispose< T >", "classPurrNet_1_1InterpolatedWithDispose.html", null ],
     [ "PurrNet.IOwnerAuth", "interfacePurrNet_1_1IOwnerAuth.html", null ],
     [ "PurrNet.Packing.IPacked", "interfacePurrNet_1_1Packing_1_1IPacked.html", [
       [ "PurrNet.StateMachine.StateMachineState", "structPurrNet_1_1StateMachine_1_1StateMachineState.html", null ]
@@ -280,6 +302,7 @@ var hierarchy =
       [ "PurrNet.NetworkReflection", "classPurrNet_1_1NetworkReflection.html", null ],
       [ "PurrNet.ReliableDeltaStream< T >", "classPurrNet_1_1ReliableDeltaStream.html", null ],
       [ "PurrNet.SyncArray< T >", "classPurrNet_1_1SyncArray.html", null ],
+      [ "PurrNet.SyncBigData", "classPurrNet_1_1SyncBigData.html", null ],
       [ "PurrNet.SyncDictionary< TKey, TValue >", "classPurrNet_1_1SyncDictionary.html", null ],
       [ "PurrNet.SyncInput< T >", "classPurrNet_1_1SyncInput.html", null ],
       [ "PurrNet.SyncList< T >", "classPurrNet_1_1SyncList.html", null ],
@@ -330,6 +353,7 @@ var hierarchy =
       [ "PurrNet.Reference< T >", "classPurrNet_1_1Reference.html", null ],
       [ "PurrNet.ReliableDeltaStream< T >", "classPurrNet_1_1ReliableDeltaStream.html", null ],
       [ "PurrNet.SyncArray< T >", "classPurrNet_1_1SyncArray.html", null ],
+      [ "PurrNet.SyncBigData", "classPurrNet_1_1SyncBigData.html", null ],
       [ "PurrNet.SyncDictionary< TKey, TValue >", "classPurrNet_1_1SyncDictionary.html", null ],
       [ "PurrNet.SyncEventBase", "classPurrNet_1_1SyncEventBase.html", [
         [ "PurrNet.SyncEvent< T1, T2 >", "classPurrNet_1_1SyncEvent.html", null ],
@@ -341,7 +365,8 @@ var hierarchy =
       [ "PurrNet.SyncList< T >", "classPurrNet_1_1SyncList.html", null ],
       [ "PurrNet.SyncQueue< T >", "classPurrNet_1_1SyncQueue.html", null ],
       [ "PurrNet.SyncTimer", "classPurrNet_1_1SyncTimer.html", null ],
-      [ "PurrNet.SyncVar< T >", "classPurrNet_1_1SyncVar.html", null ]
+      [ "PurrNet.SyncVar< T >", "classPurrNet_1_1SyncVar.html", null ],
+      [ "PurrNet.ValidatedSyncVar< T >", "classPurrNet_1_1ValidatedSyncVar.html", null ]
     ] ],
     [ "PurrNet.Packing.NetworkRegister", "classPurrNet_1_1Packing_1_1NetworkRegister.html", null ],
     [ "PurrNet.NetworkTransformRules", "structPurrNet_1_1NetworkTransformRules.html", null ],
@@ -379,7 +404,9 @@ var hierarchy =
     [ "PurrNet.ReflectionData", "structPurrNet_1_1ReflectionData.html", null ],
     [ "PurrNet.Transports.Relayers", "structPurrNet_1_1Transports_1_1Relayers.html", null ],
     [ "PurrNet.Transports.RelayServer", "structPurrNet_1_1Transports_1_1RelayServer.html", null ],
+    [ "PurrNet.Modules.ReliableConnectionHistory< T >", "classPurrNet_1_1Modules_1_1ReliableConnectionHistory.html", null ],
     [ "PurrNet.RPCInfo", "structPurrNet_1_1RPCInfo.html", null ],
+    [ "PurrNet.Modules.RPCPacketPacker", "structPurrNet_1_1Modules_1_1RPCPacketPacker.html", null ],
     [ "PurrNet.Modules.RpcRequest", "structPurrNet_1_1Modules_1_1RpcRequest.html", null ],
     [ "PurrNet.Modules.RpcResponse", "structPurrNet_1_1Modules_1_1RpcResponse.html", null ],
     [ "PurrNet.RpcRules", "structPurrNet_1_1RpcRules.html", null ],
@@ -412,12 +439,15 @@ var hierarchy =
     [ "PurrNet.SyncList< PurrNet.StateMachine.StateNode >", "classPurrNet_1_1SyncList.html", null ],
     [ "PurrNet.SyncListChange< T >", "structPurrNet_1_1SyncListChange.html", null ],
     [ "PurrNet.SyncQueueChange< T >", "structPurrNet_1_1SyncQueueChange.html", null ],
+    [ "PurrNet.SyncStatus", "structPurrNet_1_1SyncStatus.html", null ],
     [ "PurrNet.Modules.TransformIdentityPair", "structPurrNet_1_1Modules_1_1TransformIdentityPair.html", null ],
     [ "PurrNet.NetworkAssets.TypeToggle", "classPurrNet_1_1NetworkAssets_1_1TypeToggle.html", null ],
     [ "UnityEvent", null, [
       [ "PurrNet.SerializableSyncUnityEvent< T1, T2 >", "classPurrNet_1_1SerializableSyncUnityEvent.html", null ],
       [ "PurrNet.SerializableSyncUnityEvent< T1, T2 >", "classPurrNet_1_1SerializableSyncUnityEvent.html", null ]
     ] ],
+    [ "PurrNet.Modules.UnreliableAck", "structPurrNet_1_1Modules_1_1UnreliableAck.html", null ],
+    [ "PurrNet.Modules.UnreliableConnectionHistory< T >", "classPurrNet_1_1Modules_1_1UnreliableConnectionHistory.html", null ],
     [ "PurrNet.NetworkPrefabs.UserPrefabData", "structPurrNet_1_1NetworkPrefabs_1_1UserPrefabData.html", null ],
     [ "PurrNet.Vector3WithParent", "structPurrNet_1_1Vector3WithParent.html", null ],
     [ "PurrNet.VisibilityRules", "structPurrNet_1_1VisibilityRules.html", null ]
