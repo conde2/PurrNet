@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('classPurrNet_1_1SyncBigData.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
 <a href="classPurrNet_1_1SyncBigData-members.html">List of all members</a>  </div>
@@ -104,8 +105,10 @@ Inheritance diagram for PurrNet.SyncBigData:</div>
  <div class="center">
   <img src="classPurrNet_1_1SyncBigData.png" usemap="#PurrNet.SyncBigData_map" alt=""/>
   <map id="PurrNet.SyncBigData_map" name="PurrNet.SyncBigData_map">
-<area href="classPurrNet_1_1NetworkModule.html" alt="PurrNet.NetworkModule" shape="rect" coords="0,0,148,24"/>
-<area href="interfacePurrNet_1_1ITick.html" alt="PurrNet.ITick" shape="rect" coords="158,0,306,24"/>
+<area href="classPurrNet_1_1NetworkModule.html" alt="PurrNet.NetworkModule" shape="rect" coords="0,0,151,24"/>
+<area href="interfacePurrNet_1_1ITick.html" alt="PurrNet.ITick" shape="rect" coords="161,0,312,24"/>
+<area href="classPurrNet_1_1SyncAsset.html" alt="PurrNet.SyncAsset&lt; T &gt;" shape="rect" coords="0,112,151,136"/>
+<area href="classPurrNet_1_1SyncFile.html" alt="PurrNet.SyncFile&lt; T &gt;" shape="rect" coords="161,112,312,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -114,8 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5d8dd9a5dc9255617995d50b9bf9312"><td class="memItemLeft" align="right" valign="top"><a id="af5d8dd9a5dc9255617995d50b9bf9312" name="af5d8dd9a5dc9255617995d50b9bf9312"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>SyncBigData</b> (bool ownerAuth=false, int maxKBPerSec=15)</td></tr>
 <tr class="separator:af5d8dd9a5dc9255617995d50b9bf9312"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46a1e2cbe75b496118ddacf6795412bc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1SyncBigData.html#a46a1e2cbe75b496118ddacf6795412bc">OnSpawn</a> ()</td></tr>
-<tr class="separator:a46a1e2cbe75b496118ddacf6795412bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012f4dc3efe63a524099ff906c055a34"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1SyncBigData.html#a012f4dc3efe63a524099ff906c055a34">OnOwnerChanged</a> (<a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a>? oldOwner, <a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a>? newOwner, bool asServer)</td></tr>
+<tr class="separator:a012f4dc3efe63a524099ff906c055a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d4d9ad51da4f27492d7a69846cafe9"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1SyncBigData.html#a45d4d9ad51da4f27492d7a69846cafe9">OnOwnerDisconnected</a> (<a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a> ownerId)</td></tr>
+<tr class="separator:a45d4d9ad51da4f27492d7a69846cafe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ab61c5dd8a5f96a243bc3a7ee6cd66f"><td class="memItemLeft" align="right" valign="top"><a id="a8ab61c5dd8a5f96a243bc3a7ee6cd66f" name="a8ab61c5dd8a5f96a243bc3a7ee6cd66f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearData</b> ()</td></tr>
 <tr class="separator:a8ab61c5dd8a5f96a243bc3a7ee6cd66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +217,28 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEarlySpawn<
 <tr class="memdesc:ab7dd1e1daa082b614c6cf45ad77e271b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to FixedUpdate but tailored for networked objects and it's tick system.   <a href="interfacePurrNet_1_1ITick.html#ab7dd1e1daa082b614c6cf45ad77e271b">More...</a><br /></td></tr>
 <tr class="separator:ab7dd1e1daa082b614c6cf45ad77e271b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a1d740bcfdc2d0640e82aedbd6dc0c095"><td class="memItemLeft" align="right" valign="top"><a id="a1d740bcfdc2d0640e82aedbd6dc0c095" name="a1d740bcfdc2d0640e82aedbd6dc0c095"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDataReady</b> ()</td></tr>
+<tr class="separator:a1d740bcfdc2d0640e82aedbd6dc0c095"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classPurrNet_1_1NetworkModule"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPurrNet_1_1NetworkModule')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPurrNet_1_1NetworkModule.html">PurrNet.NetworkModule</a></td></tr>
+<tr class="memitem:a6fc0a87d284a7aa2ccf42112bffbab61 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a6fc0a87d284a7aa2ccf42112bffbab61" name="a6fc0a87d284a7aa2ccf42112bffbab61"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SendRPC</b> (<a class="el" href="structPurrNet_1_1ChildRPCPacket.html">ChildRPCPacket</a> packet, <a class="el" href="structPurrNet_1_1RPCSignature.html">RPCSignature</a> signature)</td></tr>
+<tr class="separator:a6fc0a87d284a7aa2ccf42112bffbab61 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6617337df35a4b365719d118657facfa inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a6617337df35a4b365719d118657facfa" name="a6617337df35a4b365719d118657facfa"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ValidateReceivingRPC</b> (<a class="el" href="structPurrNet_1_1RPCInfo.html">RPCInfo</a> info, <a class="el" href="structPurrNet_1_1RPCSignature.html">RPCSignature</a> signature, <a class="el" href="interfacePurrNet_1_1IRpc.html">IRpc</a> data, bool asServer)</td></tr>
+<tr class="separator:a6617337df35a4b365719d118657facfa inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3256ce7a0da3ceb674a31de08ef4cf69 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a3256ce7a0da3ceb674a31de08ef4cf69" name="a3256ce7a0da3ceb674a31de08ef4cf69"></a>
+object&#160;</td><td class="memItemRight" valign="bottom"><b>CallGeneric</b> (string methodName, <a class="el" href="structPurrNet_1_1GenericRPCHeader.html">GenericRPCHeader</a> rpcHeader)</td></tr>
+<tr class="separator:a3256ce7a0da3ceb674a31de08ef4cf69 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672b7899707d0eb4e3975d1f44fccdf2 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a672b7899707d0eb4e3975d1f44fccdf2" name="a672b7899707d0eb4e3975d1f44fccdf2"></a>
+<a class="el" href="structPurrNet_1_1ChildRPCPacket.html">ChildRPCPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BuildRPC</b> (int rpcId, <a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a> data)</td></tr>
+<tr class="separator:a672b7899707d0eb4e3975d1f44fccdf2 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30ed6b0a2e4c984f1b1ecf03cf9d1c1 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="aa30ed6b0a2e4c984f1b1ecf03cf9d1c1" name="aa30ed6b0a2e4c984f1b1ecf03cf9d1c1"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPermissionErrorDetails</b> (<a class="el" href="interfacePurrNet_1_1IOwnerAuth.html">IOwnerAuth</a> auth)</td></tr>
+<tr class="separator:aa30ed6b0a2e4c984f1b1ecf03cf9d1c1 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a10a8548692607f3d8e91b20ef8de5ead"><td class="memItemLeft" align="right" valign="top"><a id="a10a8548692607f3d8e91b20ef8de5ead" name="a10a8548692607f3d8e91b20ef8de5ead"></a>
@@ -219,13 +246,18 @@ Properties</h2></td></tr>
 <tr class="separator:a10a8548692607f3d8e91b20ef8de5ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eaa7e9f15b41a69274cc2fe5bc2c878"><td class="memItemLeft" align="right" valign="top"><a id="a0eaa7e9f15b41a69274cc2fe5bc2c878" name="a0eaa7e9f15b41a69274cc2fe5bc2c878"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDataReady</b><code> [get]</code></td></tr>
+<tr class="memdesc:a0eaa7e9f15b41a69274cc2fe5bc2c878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the data ready to be used? Aka, download finished and uncompressed data is available.  <br /></td></tr>
 <tr class="separator:a0eaa7e9f15b41a69274cc2fe5bc2c878"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aed5d75d43d400a53e5088ce54dac36"><td class="memItemLeft" align="right" valign="top"><a id="a8aed5d75d43d400a53e5088ce54dac36" name="a8aed5d75d43d400a53e5088ce54dac36"></a>
-ReadOnlySpan&lt; byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compressedData</b><code> [get]</code></td></tr>
-<tr class="separator:a8aed5d75d43d400a53e5088ce54dac36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7812a153dc58da597190438c20fc2cfb"><td class="memItemLeft" align="right" valign="top"><a id="a7812a153dc58da597190438c20fc2cfb" name="a7812a153dc58da597190438c20fc2cfb"></a>
-ReadOnlySpan&lt; byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>data</b><code> [get]</code></td></tr>
-<tr class="separator:a7812a153dc58da597190438c20fc2cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d43321e68e2df834090dc1303ca2f5"><td class="memItemLeft" align="right" valign="top"><a id="a25d43321e68e2df834090dc1303ca2f5" name="a25d43321e68e2df834090dc1303ca2f5"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>progress</b><code> [get]</code></td></tr>
+<tr class="memdesc:a25d43321e68e2df834090dc1303ca2f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Download progress, between 0 and 1.  <br /></td></tr>
+<tr class="separator:a25d43321e68e2df834090dc1303ca2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3edb1382f32f349c504d74d25236a9"><td class="memItemLeft" align="right" valign="top"><a id="afe3edb1382f32f349c504d74d25236a9" name="afe3edb1382f32f349c504d74d25236a9"></a>
+ArraySegment&lt; byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>compressedData</b><code> [get]</code></td></tr>
+<tr class="separator:afe3edb1382f32f349c504d74d25236a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1174762ba97beb14139fd03850f144"><td class="memItemLeft" align="right" valign="top"><a id="a6b1174762ba97beb14139fd03850f144" name="a6b1174762ba97beb14139fd03850f144"></a>
+ArraySegment&lt; byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>data</b><code> [get]</code></td></tr>
+<tr class="separator:a6b1174762ba97beb14139fd03850f144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6611ce3eef38a327b8c2d1f3a14c868"><td class="memItemLeft" align="right" valign="top"><a id="aa6611ce3eef38a327b8c2d1f3a14c868" name="aa6611ce3eef38a327b8c2d1f3a14c868"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>maxKBPerSec</b><code> [get, set]</code></td></tr>
 <tr class="separator:aa6611ce3eef38a327b8c2d1f3a14c868"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -294,22 +326,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3ae0882b6f1da83d1bc0cee8ef7f55ae inherit pub_static_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a3ae0882b6f1da83d1bc0cee8ef7f55ae" name="a3ae0882b6f1da83d1bc0cee8ef7f55ae"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>OnReceivedRpc</b> (int id, <a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a> stream, <a class="el" href="structPurrNet_1_1StaticRPCPacket.html">StaticRPCPacket</a> packet, <a class="el" href="structPurrNet_1_1RPCInfo.html">RPCInfo</a> info, bool asServer)</td></tr>
 <tr class="separator:a3ae0882b6f1da83d1bc0cee8ef7f55ae inherit pub_static_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classPurrNet_1_1NetworkModule"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classPurrNet_1_1NetworkModule')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classPurrNet_1_1NetworkModule.html">PurrNet.NetworkModule</a></td></tr>
-<tr class="memitem:a6fc0a87d284a7aa2ccf42112bffbab61 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a6fc0a87d284a7aa2ccf42112bffbab61" name="a6fc0a87d284a7aa2ccf42112bffbab61"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SendRPC</b> (<a class="el" href="structPurrNet_1_1ChildRPCPacket.html">ChildRPCPacket</a> packet, <a class="el" href="structPurrNet_1_1RPCSignature.html">RPCSignature</a> signature)</td></tr>
-<tr class="separator:a6fc0a87d284a7aa2ccf42112bffbab61 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6617337df35a4b365719d118657facfa inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a6617337df35a4b365719d118657facfa" name="a6617337df35a4b365719d118657facfa"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ValidateReceivingRPC</b> (<a class="el" href="structPurrNet_1_1RPCInfo.html">RPCInfo</a> info, <a class="el" href="structPurrNet_1_1RPCSignature.html">RPCSignature</a> signature, <a class="el" href="interfacePurrNet_1_1IRpc.html">IRpc</a> data, bool asServer)</td></tr>
-<tr class="separator:a6617337df35a4b365719d118657facfa inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3256ce7a0da3ceb674a31de08ef4cf69 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a3256ce7a0da3ceb674a31de08ef4cf69" name="a3256ce7a0da3ceb674a31de08ef4cf69"></a>
-object&#160;</td><td class="memItemRight" valign="bottom"><b>CallGeneric</b> (string methodName, <a class="el" href="structPurrNet_1_1GenericRPCHeader.html">GenericRPCHeader</a> rpcHeader)</td></tr>
-<tr class="separator:a3256ce7a0da3ceb674a31de08ef4cf69 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a672b7899707d0eb4e3975d1f44fccdf2 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a672b7899707d0eb4e3975d1f44fccdf2" name="a672b7899707d0eb4e3975d1f44fccdf2"></a>
-<a class="el" href="structPurrNet_1_1ChildRPCPacket.html">ChildRPCPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BuildRPC</b> (int rpcId, <a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a> data)</td></tr>
-<tr class="separator:a672b7899707d0eb4e3975d1f44fccdf2 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa30ed6b0a2e4c984f1b1ecf03cf9d1c1 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="aa30ed6b0a2e4c984f1b1ecf03cf9d1c1" name="aa30ed6b0a2e4c984f1b1ecf03cf9d1c1"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPermissionErrorDetails</b> (<a class="el" href="interfacePurrNet_1_1IOwnerAuth.html">IOwnerAuth</a> auth)</td></tr>
-<tr class="separator:aa30ed6b0a2e4c984f1b1ecf03cf9d1c1 inherit pro_methods_classPurrNet_1_1NetworkModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classPurrNet_1_1NetworkModule"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classPurrNet_1_1NetworkModule')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classPurrNet_1_1NetworkModule.html">PurrNet.NetworkModule</a></td></tr>
 <tr class="memitem:a97aebd580ff022b5e5df0aad4f3a4bd2 inherit pro_static_methods_classPurrNet_1_1NetworkModule"><td class="memItemLeft" align="right" valign="top"><a id="a97aebd580ff022b5e5df0aad4f3a4bd2" name="a97aebd580ff022b5e5df0aad4f3a4bd2"></a>
 static string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPermissionErrorDetails</b> (bool ownerAuth, <a class="el" href="classPurrNet_1_1NetworkModule.html">NetworkModule</a> module)</td></tr>
@@ -388,8 +404,8 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPermissio
 
 </div>
 </div>
-<a id="a46a1e2cbe75b496118ddacf6795412bc" name="a46a1e2cbe75b496118ddacf6795412bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46a1e2cbe75b496118ddacf6795412bc">&#9670;&#160;</a></span>OnSpawn()</h2>
+<a id="a012f4dc3efe63a524099ff906c055a34" name="a012f4dc3efe63a524099ff906c055a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a012f4dc3efe63a524099ff906c055a34">&#9670;&#160;</a></span>OnOwnerChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,9 +414,54 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>GetPermissio
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void PurrNet.SyncBigData.OnSpawn </td>
+          <td class="memname">override void PurrNet.SyncBigData.OnOwnerChanged </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a>?&#160;</td>
+          <td class="paramname"><em>oldOwner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a>?&#160;</td>
+          <td class="paramname"><em>newOwner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>asServer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classPurrNet_1_1NetworkModule.html">PurrNet.NetworkModule</a>.</p>
+
+</div>
+</div>
+<a id="a45d4d9ad51da4f27492d7a69846cafe9" name="a45d4d9ad51da4f27492d7a69846cafe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d4d9ad51da4f27492d7a69846cafe9">&#9670;&#160;</a></span>OnOwnerDisconnected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void PurrNet.SyncBigData.OnOwnerDisconnected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a>&#160;</td>
+          <td class="paramname"><em>ownerId</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
