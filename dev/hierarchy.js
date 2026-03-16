@@ -305,6 +305,7 @@ var hierarchy =
     ] ],
     [ "PurrNet.IProvidePrefabInstantiated", "interfacePurrNet_1_1IProvidePrefabInstantiated.html", null ],
     [ "PurrNet.IProvideSpawnPoints", "interfacePurrNet_1_1IProvideSpawnPoints.html", null ],
+    [ "PurrNet.Packing.IPurrEquatable< T >", "interfacePurrNet_1_1Packing_1_1IPurrEquatable.html", null ],
     [ "PurrNet.IPurrEvents", "interfacePurrNet_1_1IPurrEvents.html", [
       [ "PurrNet.PurrMonoBehaviour", "classPurrNet_1_1PurrMonoBehaviour.html", [
         [ "PurrNet.ColliderRollback", "classPurrNet_1_1ColliderRollback.html", null ],
@@ -422,7 +423,9 @@ var hierarchy =
       [ "PurrNet.ValidatedSyncVar< T >", "classPurrNet_1_1ValidatedSyncVar.html", null ]
     ] ],
     [ "PurrNet.Packing.NetworkRegister", "classPurrNet_1_1Packing_1_1NetworkRegister.html", null ],
+    [ "PurrNet.Transports.NetworkSimulation", "structPurrNet_1_1Transports_1_1NetworkSimulation.html", null ],
     [ "PurrNet.NetworkTransformRules", "structPurrNet_1_1NetworkTransformRules.html", null ],
+    [ "PurrNet.Modules.ObserverFilter", "structPurrNet_1_1Modules_1_1ObserverFilter.html", null ],
     [ "PurrNet.OwnershipComponentToggle", "structPurrNet_1_1OwnershipComponentToggle.html", null ],
     [ "PurrNet.OwnershipGameObjectToggle", "structPurrNet_1_1OwnershipGameObjectToggle.html", null ],
     [ "PurrNet.OwnershipRules", "structPurrNet_1_1OwnershipRules.html", null ],
