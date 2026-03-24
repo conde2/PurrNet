@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PurrNet: PurrNet.Transports.HostJoinInfo Struct Reference</title>
+<title>PurrNet: PurrNet.NetworkRigidbodySettings Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('structPurrNet_1_1Transports_1_1HostJoinInfo.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classPurrNet_1_1NetworkRigidbodySettings.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,38 +92,47 @@ $(document).ready(function(){initNavTree('structPurrNet_1_1Transports_1_1HostJoi
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structPurrNet_1_1Transports_1_1HostJoinInfo-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PurrNet.Transports.HostJoinInfo Struct Reference</div></div>
+<a href="classPurrNet_1_1NetworkRigidbodySettings-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">PurrNet.NetworkRigidbodySettings Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for PurrNet.NetworkRigidbodySettings:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classPurrNet_1_1NetworkRigidbodySettings.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af5ecf4d53d4ed6f84f4018fc4d5c4d19"><td class="memItemLeft" align="right" valign="top"><a id="af5ecf4d53d4ed6f84f4018fc4d5c4d19" name="af5ecf4d53d4ed6f84f4018fc4d5c4d19"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ssl</b></td></tr>
-<tr class="separator:af5ecf4d53d4ed6f84f4018fc4d5c4d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0298e325aabc6fd284e25f5e1c68687"><td class="memItemLeft" align="right" valign="top"><a id="ab0298e325aabc6fd284e25f5e1c68687" name="ab0298e325aabc6fd284e25f5e1c68687"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>secret</b></td></tr>
-<tr class="separator:ab0298e325aabc6fd284e25f5e1c68687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94627cf7bb88708077521b84bcb8a983"><td class="memItemLeft" align="right" valign="top"><a id="a94627cf7bb88708077521b84bcb8a983" name="a94627cf7bb88708077521b84bcb8a983"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>port</b></td></tr>
-<tr class="separator:a94627cf7bb88708077521b84bcb8a983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61ed61030556838823ef81ee5d7b4dec"><td class="memItemLeft" align="right" valign="top"><a id="a61ed61030556838823ef81ee5d7b4dec" name="a61ed61030556838823ef81ee5d7b4dec"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>udpPort</b></td></tr>
-<tr class="separator:a61ed61030556838823ef81ee5d7b4dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c03cf2a19b7b636487f9af8c197041"><td class="memItemLeft" align="right" valign="top"><a id="a96c03cf2a19b7b636487f9af8c197041" name="a96c03cf2a19b7b636487f9af8c197041"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>udpPortV2</b></td></tr>
-<tr class="separator:a96c03cf2a19b7b636487f9af8c197041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e583a5d149e09292d364a3013b731fa"><td class="memItemLeft" align="right" valign="top"><a id="a9e583a5d149e09292d364a3013b731fa" name="a9e583a5d149e09292d364a3013b731fa"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>positionStrength</b> = Vector3.one * 5f</td></tr>
+<tr class="separator:a9e583a5d149e09292d364a3013b731fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0eaf6ec08b16ecda2217d8ca61a393a"><td class="memItemLeft" align="right" valign="top"><a id="ac0eaf6ec08b16ecda2217d8ca61a393a" name="ac0eaf6ec08b16ecda2217d8ca61a393a"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>positionCorrectionRange</b> = Vector3.one * 2f</td></tr>
+<tr class="separator:ac0eaf6ec08b16ecda2217d8ca61a393a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb81e7504a8b6d2c37dcc7b6f3bd4d2"><td class="memItemLeft" align="right" valign="top"><a id="abbb81e7504a8b6d2c37dcc7b6f3bd4d2" name="abbb81e7504a8b6d2c37dcc7b6f3bd4d2"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>positionAcceptableError</b> = Vector3.zero</td></tr>
+<tr class="separator:abbb81e7504a8b6d2c37dcc7b6f3bd4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa930f018146837de585e837163a746c6"><td class="memItemLeft" align="right" valign="top"><a id="aa930f018146837de585e837163a746c6" name="aa930f018146837de585e837163a746c6"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>rotationStrength</b> = Vector3.one * 3f</td></tr>
+<tr class="separator:aa930f018146837de585e837163a746c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eb6a534abdc8fee830577ba78d158b4"><td class="memItemLeft" align="right" valign="top"><a id="a8eb6a534abdc8fee830577ba78d158b4" name="a8eb6a534abdc8fee830577ba78d158b4"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>rotationCorrectionRange</b> = Vector3.one * 90f</td></tr>
+<tr class="separator:a8eb6a534abdc8fee830577ba78d158b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801e1f0c4540d5f3a3c7a1243c85c147"><td class="memItemLeft" align="right" valign="top"><a id="a801e1f0c4540d5f3a3c7a1243c85c147" name="a801e1f0c4540d5f3a3c7a1243c85c147"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>rotationAcceptableError</b> = Vector3.one</td></tr>
+<tr class="separator:a801e1f0c4540d5f3a3c7a1243c85c147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li>Assets/PurrNet/Runtime/Transports/PurrTransportUtils.cs</li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>Assets/PurrNet/Runtime/Components/NetworkRigidbody/NetworkRigidbodySettings.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacePurrNet.html">PurrNet</a></li><li class="navelem"><a class="el" href="namespacePurrNet_1_1Transports.html">Transports</a></li><li class="navelem"><a class="el" href="structPurrNet_1_1Transports_1_1HostJoinInfo.html">HostJoinInfo</a></li>
+    <li class="navelem"><a class="el" href="namespacePurrNet.html">PurrNet</a></li><li class="navelem"><a class="el" href="classPurrNet_1_1NetworkRigidbodySettings.html">NetworkRigidbodySettings</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
