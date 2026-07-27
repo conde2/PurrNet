@@ -146,12 +146,25 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpawn</b> (
 <tr class="memitem:a1029c4edf0f65446995abece621dc1fa"><td class="memItemLeft" align="right" valign="top"><a id="a1029c4edf0f65446995abece621dc1fa" name="a1029c4edf0f65446995abece621dc1fa"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpawn</b> (bool asServer)</td></tr>
 <tr class="separator:a1029c4edf0f65446995abece621dc1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f55a0c992dda9c7eabb81b69e28328"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1NetworkModule.html#a79f55a0c992dda9c7eabb81b69e28328">OnSpawnSent</a> ()</td></tr>
+<tr class="memdesc:a79f55a0c992dda9c7eabb81b69e28328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called only on the spawning peer, at the end of the frame the object was spawned in, right before batched RPCs flush. Anything queued here departs in the same flush as the spawn, ordered right behind the spawn packet.   <a href="classPurrNet_1_1NetworkModule.html#a79f55a0c992dda9c7eabb81b69e28328">More...</a><br /></td></tr>
+<tr class="separator:a79f55a0c992dda9c7eabb81b69e28328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a446f336095180850c60657f3d9416d13"><td class="memItemLeft" align="right" valign="top"><a id="a446f336095180850c60657f3d9416d13" name="a446f336095180850c60657f3d9416d13"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSpawnReceived</b> ()</td></tr>
+<tr class="memdesc:a446f336095180850c60657f3d9416d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called only on peers that created the object from a spawn packet, once the entire packet has been deserialized and early-spawned. Everything that spawned alongside this object exists at this point; safe to react to spawn data.  <br /></td></tr>
+<tr class="separator:a446f336095180850c60657f3d9416d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abde33af4d0639ec5d734684575189ece"><td class="memItemLeft" align="right" valign="top"><a id="abde33af4d0639ec5d734684575189ece" name="abde33af4d0639ec5d734684575189ece"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDespawned</b> ()</td></tr>
 <tr class="separator:abde33af4d0639ec5d734684575189ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cdc9113e906f54fcba7d32a5df22a1b"><td class="memItemLeft" align="right" valign="top"><a id="a9cdc9113e906f54fcba7d32a5df22a1b" name="a9cdc9113e906f54fcba7d32a5df22a1b"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDespawned</b> (bool asServer)</td></tr>
 <tr class="separator:a9cdc9113e906f54fcba7d32a5df22a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef4f01121d94dfb6a9583a6c428a199"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1NetworkModule.html#abef4f01121d94dfb6a9583a6c428a199">OnSerialize</a> (<a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a> packer)</td></tr>
+<tr class="memdesc:abef4f01121d94dfb6a9583a6c428a199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the spawner to attach custom data to the parent's spawn packet. Whatever you write here travels with the object and is read back in OnDeserialize.   <a href="classPurrNet_1_1NetworkModule.html#abef4f01121d94dfb6a9583a6c428a199">More...</a><br /></td></tr>
+<tr class="separator:abef4f01121d94dfb6a9583a6c428a199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29a49c427f0894585b4b9797abe5838e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1NetworkModule.html#a29a49c427f0894585b4b9797abe5838e">OnDeserialize</a> (<a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a> packer)</td></tr>
+<tr class="memdesc:a29a49c427f0894585b4b9797abe5838e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on peers that create the object, after the spawn packet arrives. Read the data back in the same order you wrote it in OnSerialize.   <a href="classPurrNet_1_1NetworkModule.html#a29a49c427f0894585b4b9797abe5838e">More...</a><br /></td></tr>
+<tr class="separator:a29a49c427f0894585b4b9797abe5838e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5beef01bbbbba2c26290101e24b96ea3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPurrNet_1_1NetworkModule.html#a5beef01bbbbba2c26290101e24b96ea3">OnPreObserverAdded</a> (<a class="el" href="structPurrNet_1_1PlayerID.html">PlayerID</a> player)</td></tr>
 <tr class="memdesc:a5beef01bbbbba2c26290101e24b96ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when an observer is added. Server only.   <a href="classPurrNet_1_1NetworkModule.html#a5beef01bbbbba2c26290101e24b96ea3">More...</a><br /></td></tr>
 <tr class="separator:a5beef01bbbbba2c26290101e24b96ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,6 +302,40 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isController</b><code
 <tr class="separator:a800586ec7553c06f52bb03648203db54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a29a49c427f0894585b4b9797abe5838e" name="a29a49c427f0894585b4b9797abe5838e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a49c427f0894585b4b9797abe5838e">&#9670;&#160;</a></span>OnDeserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PurrNet.NetworkModule.OnDeserialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a>&#160;</td>
+          <td class="paramname"><em>packer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called on peers that create the object, after the spawn packet arrives. Read the data back in the same order you wrote it in OnSerialize.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packer</td><td>The packer to read your data from</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a1f2a42582066a7fe12abdec08188bce6" name="a1f2a42582066a7fe12abdec08188bce6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f2a42582066a7fe12abdec08188bce6">&#9670;&#160;</a></span>OnEarlySpawn() <span class="overload">[1/2]</span></h2>
 
@@ -553,7 +600,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isController</b><code
 
 <p>Called when this object is put back into the pool. Use this to reset any values for the next spawn.  </p>
 
-<p>Reimplemented in <a class="el" href="classPurrNet_1_1SyncArray.html#aa4471617b677a759934c908a86a247a8">PurrNet.SyncArray&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncDictionary.html#a03bff9c393c6ed0151ff77d66be88a1e">PurrNet.SyncDictionary&lt; TKey, TValue &gt;</a>, <a class="el" href="classPurrNet_1_1SyncHashSet.html#a22702942c14bbd8853621a20de48696c">PurrNet.SyncHashSet&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncList.html#a70c659495f425728fd25762a866d558d">PurrNet.SyncList&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncQueue.html#aa686f019fc0b404ad0051734f7f9be4c">PurrNet.SyncQueue&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncVar.html#a36e597796f56c71bb965d6dbe56123d0">PurrNet.SyncVar&lt; T &gt;</a>, and <a class="el" href="classPurrNet_1_1ValidatedSyncVar.html#a128e30ae7079bc32ff59fd2dd53fada8">PurrNet.ValidatedSyncVar&lt; T &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classPurrNet_1_1SyncArray.html#aa4471617b677a759934c908a86a247a8">PurrNet.SyncArray&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncDictionary.html#a03bff9c393c6ed0151ff77d66be88a1e">PurrNet.SyncDictionary&lt; TKey, TValue &gt;</a>, <a class="el" href="classPurrNet_1_1SyncEventLogic.html#a17d2d3c379ca2d3c9a873f7141a26ddb">PurrNet.SyncEventLogic&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncHashSet.html#a22702942c14bbd8853621a20de48696c">PurrNet.SyncHashSet&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncList.html#a70c659495f425728fd25762a866d558d">PurrNet.SyncList&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncQueue.html#aa686f019fc0b404ad0051734f7f9be4c">PurrNet.SyncQueue&lt; T &gt;</a>, <a class="el" href="classPurrNet_1_1SyncVar.html#a36e597796f56c71bb965d6dbe56123d0">PurrNet.SyncVar&lt; T &gt;</a>, and <a class="el" href="classPurrNet_1_1ValidatedSyncVar.html#a128e30ae7079bc32ff59fd2dd53fada8">PurrNet.ValidatedSyncVar&lt; T &gt;</a>.</p>
 
 </div>
 </div>
@@ -633,6 +680,69 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isController</b><code
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="abef4f01121d94dfb6a9583a6c428a199" name="abef4f01121d94dfb6a9583a6c428a199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef4f01121d94dfb6a9583a6c428a199">&#9670;&#160;</a></span>OnSerialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PurrNet.NetworkModule.OnSerialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPurrNet_1_1Packing_1_1BitPacker.html">BitPacker</a>&#160;</td>
+          <td class="paramname"><em>packer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called on the spawner to attach custom data to the parent's spawn packet. Whatever you write here travels with the object and is read back in OnDeserialize.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packer</td><td>The packer to write your data into</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a79f55a0c992dda9c7eabb81b69e28328" name="a79f55a0c992dda9c7eabb81b69e28328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f55a0c992dda9c7eabb81b69e28328">&#9670;&#160;</a></span>OnSpawnSent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PurrNet.NetworkModule.OnSpawnSent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called only on the spawning peer, at the end of the frame the object was spawned in, right before batched RPCs flush. Anything queued here departs in the same flush as the spawn, ordered right behind the spawn packet.  </p>
+
+<p>Reimplemented in <a class="el" href="classPurrNet_1_1SyncVar.html#aee3d203c5aa707fddb01a40aea8d88b9">PurrNet.SyncVar&lt; T &gt;</a>.</p>
 
 </div>
 </div>

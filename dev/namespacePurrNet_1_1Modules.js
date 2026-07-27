@@ -1,7 +1,7 @@
 var namespacePurrNet_1_1Modules =
 [
     [ "AckDeltaMessage", "structPurrNet_1_1Modules_1_1AckDeltaMessage.html", null ],
-    [ "AuthModule", "classPurrNet_1_1Modules_1_1AuthModule.html", null ],
+    [ "AuthModule", "classPurrNet_1_1Modules_1_1AuthModule.html", "classPurrNet_1_1Modules_1_1AuthModule" ],
     [ "BroadcastModule", "classPurrNet_1_1Modules_1_1BroadcastModule.html", null ],
     [ "ChangeParentAction", "structPurrNet_1_1Modules_1_1ChangeParentAction.html", null ],
     [ "ChangeParentPacket", "structPurrNet_1_1Modules_1_1ChangeParentPacket.html", null ],
@@ -27,6 +27,8 @@ var namespacePurrNet_1_1Modules =
     [ "INetworkModule", "interfacePurrNet_1_1Modules_1_1INetworkModule.html", null ],
     [ "IStableHashable", "interfacePurrNet_1_1Modules_1_1IStableHashable.html", null ],
     [ "LocalTransform", "structPurrNet_1_1Modules_1_1LocalTransform.html", null ],
+    [ "NetworkLODFactory", "classPurrNet_1_1Modules_1_1NetworkLODFactory.html", "classPurrNet_1_1Modules_1_1NetworkLODFactory" ],
+    [ "NetworkLODModule", "classPurrNet_1_1Modules_1_1NetworkLODModule.html", null ],
     [ "NetworkTransformDelta", "structPurrNet_1_1Modules_1_1NetworkTransformDelta.html", null ],
     [ "NetworkTransformFactory", "classPurrNet_1_1Modules_1_1NetworkTransformFactory.html", null ],
     [ "NetworkTransformModule", "classPurrNet_1_1Modules_1_1NetworkTransformModule.html", null ],
@@ -51,6 +53,7 @@ var namespacePurrNet_1_1Modules =
     [ "ScenePlayersModule", "classPurrNet_1_1Modules_1_1ScenePlayersModule.html", "classPurrNet_1_1Modules_1_1ScenePlayersModule" ],
     [ "SceneScopedFactory", "classPurrNet_1_1Modules_1_1SceneScopedFactory.html", null ],
     [ "ScenesModule", "classPurrNet_1_1Modules_1_1ScenesModule.html", "classPurrNet_1_1Modules_1_1ScenesModule" ],
+    [ "SceneSpawnReconcilePacket", "structPurrNet_1_1Modules_1_1SceneSpawnReconcilePacket.html", null ],
     [ "SceneState", "structPurrNet_1_1Modules_1_1SceneState.html", "structPurrNet_1_1Modules_1_1SceneState" ],
     [ "ServerLoginResponse", "structPurrNet_1_1Modules_1_1ServerLoginResponse.html", null ],
     [ "SimpleHistory", "classPurrNet_1_1Modules_1_1SimpleHistory.html", "classPurrNet_1_1Modules_1_1SimpleHistory" ],

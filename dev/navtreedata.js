@@ -40,6 +40,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
@@ -50,12 +51,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classPurrNet_1_1Modules_1_1ScenesModule.html#ac99c38db7b8de7b34047a8ca1d38adf9",
-"classPurrNet_1_1NetworkManager.html#a29e178dbbfb98fbca42ad59daf57c2c3",
-"classPurrNet_1_1NetworkTransform.html#ace053bc3faab6bdca4cfb4efcea68e81",
-"classPurrNet_1_1SyncAsset.html",
-"functions_o.html",
-"structPurrNet_1_1Modules_1_1TransformIdentityPair.html"
+"classPurrNet_1_1Modules_1_1ScenesModule.html#a56b451ee775be978df48abfaaa6fc8e8",
+"classPurrNet_1_1NetworkIdentity.html#ad29256abc524fb527cce1c241ebcd021",
+"classPurrNet_1_1NetworkOwnershipDebug.html",
+"classPurrNet_1_1Pooling_1_1HashSetPool.html",
+"classPurrNet_1_1SyncInput.html#a2c00b2d37dcfb4455c7da392c97678da",
+"interfacePurrNet_1_1INetworkTransform.html#a48785d7130c0b10d1c093229f88fed0a",
+"structPurrNet_1_1NetworkSceneRules.html",
+"structPurrNet_1_1VisibilityRules.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

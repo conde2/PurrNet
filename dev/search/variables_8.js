@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unfragmented_5foverhead_0',['UNFRAGMENTED_OVERHEAD',['../classPurrNet_1_1Transports_1_1FragmentationLayer.html#ae9a82772968d3bf5fd32dada806f042f',1,'PurrNet::Transports::FragmentationLayer']]]
+  ['nan_0',['NaN',['../structPurrNet_1_1Packing_1_1Half.html#a60df7beccdba3eb451c165731929233d',1,'PurrNet::Packing::Half']]],
+  ['negativeinfinity_1',['NegativeInfinity',['../structPurrNet_1_1Packing_1_1Half.html#a4036e61b09986902c3232b001cae7113',1,'PurrNet::Packing::Half']]]
 ];
