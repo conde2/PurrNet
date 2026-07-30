@@ -214,6 +214,8 @@ var hierarchy =
       [ "PurrNet.LODIntervalScheduler", "classPurrNet_1_1LODIntervalScheduler.html", null ]
     ] ],
     [ "PurrNet.IMath< T >", "interfacePurrNet_1_1IMath.html", null ],
+    [ "PurrNet.Modules.ImmediateRpcRejection", "structPurrNet_1_1Modules_1_1ImmediateRpcRejection.html", null ],
+    [ "PurrNet.Modules.ImmediateRpcResponse", "structPurrNet_1_1Modules_1_1ImmediateRpcResponse.html", null ],
     [ "INetLogger", null, [
       [ "PurrNet.Transports.UDPTransport", "classPurrNet_1_1Transports_1_1UDPTransport.html", null ]
     ] ],
@@ -262,6 +264,7 @@ var hierarchy =
     [ "PurrNet.InterpolatedWithDispose< T >", "classPurrNet_1_1InterpolatedWithDispose.html", null ],
     [ "PurrNet.IOwnerAuth", "interfacePurrNet_1_1IOwnerAuth.html", null ],
     [ "PurrNet.Packing.IPacked", "interfacePurrNet_1_1Packing_1_1IPacked.html", [
+      [ "PurrNet.AudioPlaybackCommand", "structPurrNet_1_1AudioPlaybackCommand.html", null ],
       [ "PurrNet.AudioSourceDelta", "structPurrNet_1_1AudioSourceDelta.html", null ],
       [ "PurrNet.StateMachine.StateMachineState", "structPurrNet_1_1StateMachine_1_1StateMachineState.html", null ]
     ] ],
