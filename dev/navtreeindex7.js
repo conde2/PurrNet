@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"structPurrNet_1_1Modules_1_1SceneState.html#abec0619094f4777df3f2c4f953391260":[0,0,0,4,57,1],
+"structPurrNet_1_1Modules_1_1ServerLoginResponse.html":[0,0,0,4,58],
 "structPurrNet_1_1Modules_1_1ServerLoginResponse.html":[1,0,0,4,58],
 "structPurrNet_1_1Modules_1_1SpawnID.html":[0,0,0,4,60],
 "structPurrNet_1_1Modules_1_1SpawnID.html":[1,0,0,4,60],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "structPurrNet_1_1StatisticsManager_1_1PingMessage.html":[1,0,0,153,1],
 "structPurrNet_1_1StringUTF8.html":[0,0,0,154],
 "structPurrNet_1_1StringUTF8.html":[1,0,0,154],
-"structPurrNet_1_1SyncArrayChange.html":[0,0,0,156],
-"structPurrNet_1_1SyncArrayChange.html":[1,0,0,156],
-"structPurrNet_1_1SyncDictionaryChange.html":[0,0,0,160]
+"structPurrNet_1_1SyncArrayChange.html":[0,0,0,156]
 };
