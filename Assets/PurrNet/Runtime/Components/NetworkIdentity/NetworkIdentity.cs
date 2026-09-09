@@ -175,7 +175,11 @@ namespace PurrNet
             firstIdentity.InvalidateSiblingIdentities();
 
             if (firstIdentity != this)
-                _directChildren = new List<NetworkIdentity>();
+            {
+                if (_directChildren == null)
+                    _directChildren = new List<NetworkIdentity>();
+                else _directChildren.Clear();
+            }
             else RecalculateDirectChildren();
         }
 
